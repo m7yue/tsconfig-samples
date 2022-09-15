@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./lib",
+    "emitDeclarationOnly": true
+  },
+  "include": ["src"]
+}

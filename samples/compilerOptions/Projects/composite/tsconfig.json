@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    // "incremental": false, // Composite projects may not disable incremental compilation.
+    "composite": true,
+    "outDir": "dist",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

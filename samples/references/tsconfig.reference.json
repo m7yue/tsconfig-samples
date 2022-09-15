@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "references": [
+    { "path": "./module-a/tsconfig.json"},
+    { "path": "./module-b/tsconfig.json"},
+  ]
+}

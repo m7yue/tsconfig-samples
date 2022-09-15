@@ -1,0 +1,1 @@
+const fuc = () => console.log('test7')

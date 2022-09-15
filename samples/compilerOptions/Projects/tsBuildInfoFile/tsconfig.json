@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "include": ["src"]
+}

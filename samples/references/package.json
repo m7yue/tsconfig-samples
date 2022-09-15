@@ -1,0 +1,6 @@
+{
+  "name": "references",
+  "scripts": {
+    "build": "tsc -b ./tsconfig.reference.json"
+  }
+}

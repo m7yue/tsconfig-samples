@@ -1,0 +1,21 @@
+{
+  "name": "compilerOptions-target",
+  "version": "0.0.1",
+  "types": "./lib/index.d.ts",
+  "main": "./lib",
+  "exports": {
+    ".": {
+      "import": "./lib/es6/index.js",
+      "require": "./lib/es5/index.js"
+    }
+  },
+  "scripts": {
+    "build:es5": "tsc -p ./tsconfig.es5.json",
+    "build:es6": "tsc -p ./tsconfig.es6.json",
+    "build:declaration": "tsc",
+    "build": "run-p build:declaration build:es5 build:es6"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
