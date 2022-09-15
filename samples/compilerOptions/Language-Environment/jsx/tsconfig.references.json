@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "noEmit": true
+  },
+  "references": [
+    {"path": "./tsconfig.preserve.json"},
+    {"path": "./tsconfig.react-jsx.json"},
+    {"path": "./tsconfig.react-jsxdev.json"},
+    {"path": "./tsconfig.react-native.json"},
+    {"path": "./tsconfig.react.json"}
+  ]
+}
