@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+
+    "jsxImportSource": "preact",
+    "types": ["preact"]
+  },
+  "include": ["src"]
+}

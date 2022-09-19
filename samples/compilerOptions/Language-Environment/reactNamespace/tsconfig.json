@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "reactNamespace": "CustomReact",
+
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}

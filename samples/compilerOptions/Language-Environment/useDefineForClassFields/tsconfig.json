@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "skipLibCheck": true,
+    "useDefineForClassFields": true,
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
