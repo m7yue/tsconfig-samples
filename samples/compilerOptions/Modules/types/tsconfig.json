@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+
+    "skipLibCheck": true,
+
+    "esModuleInterop": true,
+
+    "types": ["node"]
+  },
+
+  "include": ["src"]
+}

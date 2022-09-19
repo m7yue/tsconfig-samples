@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+
+    "moduleSuffixes": [".ios", ".native", ".classnames", ""],
+
+    "outDir": "dist"
+  }
+}

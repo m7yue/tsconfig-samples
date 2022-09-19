@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node"
+  }
+}

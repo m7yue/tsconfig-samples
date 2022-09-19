@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+
+    "outDir": "dist",
+
+    "skipLibCheck": true,
+
+    "paths": {
+      "@modules/*": ["./src/modules/*"],
+      "@utils/*": ["./src/utils/*"],
+    }
+  }
+}

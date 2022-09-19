@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "noResolve": false,
+
+    "outDir": "dist",
+
+    "skipLibCheck": true,    
+  },
+
+  "files": ["src/index.ts", "src/module-a.ts"]
+}

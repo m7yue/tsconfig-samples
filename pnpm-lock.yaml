@@ -7,8 +7,10 @@ importers:
 
   samples:
     specifiers:
+      '@types/react': ^18.0.20
       react: ^18.2.0
     dependencies:
+      '@types/react': 18.0.20
       react: 18.2.0
 
   samples/compilerOptions/Language-Environment/jsx:
@@ -20,11 +22,29 @@ importers:
     devDependencies:
       '@types/react': 18.0.20
 
+  samples/compilerOptions/Language-Environment/jsxImportSource:
+    specifiers:
+      preact: ^10.11.0
+    dependencies:
+      preact: 10.11.0
+
+  samples/compilerOptions/Language-Environment/moduleDetection:
+    specifiers:
+      '@types/node': ^16.11.59
+    devDependencies:
+      '@types/node': 16.11.59
+
   samples/compilerOptions/Language-Environment/target:
     specifiers:
       npm-run-all: ^4.1.5
     devDependencies:
       npm-run-all: 4.1.5
+
+  samples/compilerOptions/Modules/typeRoots:
+    specifiers:
+      '@types/node': ^16.11.59
+    dependencies:
+      '@types/node': 16.11.59
 
   samples/compilerOptions/module:
     specifiers:
@@ -2444,8 +2464,7 @@ packages:
     dev: false
 
   /@types/node/16.11.59:
-    resolution: {integrity: sha1-gj8ji5BjzMOzt/ExhvFDpXkmxPY=, tarball: '@types/node/download/@types/node-16.11.59.tgz'}
-    dev: false
+    resolution: {integrity: sha512-6u+36Dj3aDzhfBVUf/mfmc92OEdzQ2kx2jcXGdigfl70E/neV21ZHE6UCz4MDzTRcVqGAM27fk+DLXvyDsn3Jw==}
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA=, tarball: '@types/parse-json/download/@types/parse-json-4.0.0.tgz'}
@@ -2488,7 +2507,6 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
       csstype: 3.1.1
-    dev: true
 
   /@types/resolve/1.17.1:
     resolution: {integrity: sha1-Ov1q2JZ8d+Q3bFmKgt3Vj0bsRdY=, tarball: '@types/resolve/download/@types/resolve-1.17.1.tgz'}
@@ -8215,6 +8233,10 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /preact/10.11.0:
+    resolution: {integrity: sha512-Fk6+vB2kb6mSJfDgODq0YDhMfl0HNtK5+Uc9QqECO4nlyPAQwCI+BKyWO//idA7ikV7o+0Fm6LQmNuQi1wXI1w==}
+    dev: false
 
   /prelude-ls/1.1.2:
     resolution: {integrity: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=, tarball: prelude-ls/download/prelude-ls-1.1.2.tgz}

@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "moduleResolution": "Node",
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "declaration": true,
     "outDir": "./lib",

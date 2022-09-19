@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    // "rootDir": "./src/module-b",
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "declaration": true,
+
+    // "composite": true
+  },
+
+  "exclude": ["./index.ts"]
+}
