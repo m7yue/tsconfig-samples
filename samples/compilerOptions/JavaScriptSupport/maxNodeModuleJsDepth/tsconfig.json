@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+
+    "allowJs": true,
+    "maxNodeModuleJsDepth": 1,
+    "traceResolution": true,
+    "moduleResolution": "Node",
+    "typeRoots": [],
+
+    "outDir": "dist",
+  }  
+}

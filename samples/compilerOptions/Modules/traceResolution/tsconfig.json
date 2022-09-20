@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+
+    "traceResolution": true,
+
+    "skipLibCheck": true,
+
+    "outDir": "dist",
+
+    "typeRoots": []
+  }
+}

@@ -18,3 +18,6 @@
 
 
 此配置文件将包括./typings， ./vendor/types 下的所有包。并且不包含。/node _ module/@type. 所有路径都是相对于 tsconfig.json 的。
+
+
+通过开启 traceResolution, 追踪发现，合理设置 typeRoots 可以提升性能。
