@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "skipLibCheck": true,
+
+    "allowJs": true,
+
+    "declaration": true,
+    "sourceMap": true,
+    "mapRoot": "https://my-website.com/debug/sourcemaps/"
+  }
+}

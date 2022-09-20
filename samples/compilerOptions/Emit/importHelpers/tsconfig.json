@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES6",
+    "downlevelIteration": true,
+    "importHelpers": true,
+
+    "moduleResolution": "Node",
+
+    "outDir": "dist",
+    "skipLibCheck": true,
+
+    "allowJs": true,
+
+    "declaration": true
+  }
+}

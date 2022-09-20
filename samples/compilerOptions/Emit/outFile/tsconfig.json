@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "None",
+
+    "outFile": "./dist/aaa.js",
+
+    "outDir": "dist",
+    "skipLibCheck": true,
+
+    "allowJs": true,
+
+    "declaration": true
+  }
+}

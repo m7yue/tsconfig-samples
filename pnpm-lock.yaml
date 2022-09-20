@@ -16,6 +16,12 @@ importers:
       '@types/react': 18.0.20
       react: 18.2.0
 
+  samples/compilerOptions/Emit/importHelpers:
+    specifiers:
+      tslib: ^2.4.0
+    dependencies:
+      tslib: 2.4.0
+
   samples/compilerOptions/JavaScriptSupport/maxNodeModuleJsDepth:
     specifiers:
       react: ^18.2.0
@@ -9599,7 +9605,7 @@ packages:
     dev: false
 
   /tslib/2.4.0:
-    resolution: {integrity: sha1-fOyqfwc85oCgWEeqd76UEJjzbcM=, tarball: tslib/download/tslib-2.4.0.tgz}
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: false
 
   /tsutils/3.21.0_typescript@4.8.3:

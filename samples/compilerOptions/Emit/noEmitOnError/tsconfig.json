@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "skipLibCheck": true,
+
+    "allowJs": false,
+
+    "declaration": true,
+
+    "noEmitOnError": false,
+  }
+}

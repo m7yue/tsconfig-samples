@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+
+    "outDir": "dist",
+    "skipLibCheck": true,
+
+   "declaration": true,
+
+    "preserveValueImports": false
+  }
+}

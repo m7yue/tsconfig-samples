@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+
+    "allowJs": true,
+
+    "declaration": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "declarationMap": true,
+    "noEmit": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES6",
+    "downlevelIteration": false,
+
+    "outDir": "dist",
+    "skipLibCheck": true,
+
+    "allowJs": true,
+
+    "declaration": true
+  },
+  "include": ["src"]
+}
