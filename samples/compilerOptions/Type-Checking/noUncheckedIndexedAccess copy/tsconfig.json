@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "../noPropertyAccessFromIndexSignature/dist",
+    "skipLibCheck": true,
+
+    "noUncheckedIndexedAccess": true 
+  }
+}

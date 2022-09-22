@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+
+    "noUnusedLocals": false
+  }
+}

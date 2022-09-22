@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "noEmitOnError": true,
+
+    "strict": false
+  }
+}
