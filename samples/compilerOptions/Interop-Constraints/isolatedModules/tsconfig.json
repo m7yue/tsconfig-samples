@@ -3,10 +3,9 @@
     "outDir": "dist",
     "skipLibCheck": true,
 
-    "allowJs": true,
-
     "declaration": true,
-    "declarationMap": true
-  },
-  "include": ["src"]
+    "noEmitOnError": true,
+
+    "isolatedModules": true,
+  }
 }

@@ -1,3 +1,6 @@
-import { runner, TypeRuner } from './module-a'
+import { Animal, Dog} from "./animal";
+
+export { Dog }
+
+eval("console.log(new Animal().isDangerous())");
  
-export type A = typeof runner

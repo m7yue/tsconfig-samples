@@ -1,5 +1,5 @@
 
-指定在发出文件时使用的行结束序列: ‘CRLF’(dos) 或 ‘LF’(unix)。
+指定在输出文件时使用的行结束序列: ‘CRLF’(dos) 或 ‘LF’(unix)。
 
 ## CRLF和LF的差异
 https://zhuanlan.zhihu.com/p/380574688

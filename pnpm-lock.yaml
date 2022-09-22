@@ -8,7 +8,13 @@ importers:
     dependencies:
       react: 18.2.0
 
-  samples:
+  samples/compilerOptions/Emit/importHelpers:
+    specifiers:
+      tslib: ^2.4.0
+    dependencies:
+      tslib: 2.4.0
+
+  samples/compilerOptions/Interop-Constraints/allowSyntheticDefaultImports:
     specifiers:
       '@types/react': ^18.0.20
       react: ^18.2.0
@@ -16,17 +22,20 @@ importers:
       '@types/react': 18.0.20
       react: 18.2.0
 
-  samples/compilerOptions/Emit/importHelpers:
+  samples/compilerOptions/Interop-Constraints/esModuleInterop:
     specifiers:
-      tslib: ^2.4.0
+      moment: ^2.29.4
     dependencies:
-      tslib: 2.4.0
+      moment: 2.29.4
+
+  samples/compilerOptions/Interop-Constraints/preserveSymlinks:
+    specifiers:
+      compilerOptions-module: workspace:^0.0.1
+    dependencies:
+      compilerOptions-module: link:../../Modules/module
 
   samples/compilerOptions/JavaScriptSupport/maxNodeModuleJsDepth:
-    specifiers:
-      react: ^18.2.0
-    dependencies:
-      react: 18.2.0
+    specifiers: {}
 
   samples/compilerOptions/Language-Environment/jsx:
     specifiers:
@@ -55,17 +64,26 @@ importers:
     devDependencies:
       npm-run-all: 4.1.5
 
+  samples/compilerOptions/Modules/module:
+    specifiers:
+      npm-run-all: ^4.1.5
+    devDependencies:
+      npm-run-all: 4.1.5
+
   samples/compilerOptions/Modules/typeRoots:
     specifiers:
       '@types/node': ^16.11.59
     dependencies:
       '@types/node': 16.11.59
 
-  samples/compilerOptions/module:
+  samples/compilerOptions/Modules/typeRoots/types/path:
+    specifiers: {}
+
+  samples/compilerOptions/Modules/types:
     specifiers:
-      npm-run-all: ^4.1.5
-    devDependencies:
-      npm-run-all: 4.1.5
+      '@types/node': ^16.11.59
+    dependencies:
+      '@types/node': 16.11.59
 
   samples/lib-tests/cra-ts:
     specifiers:
@@ -91,7 +109,7 @@ importers:
       '@types/node': 16.11.59
       '@types/react': 18.0.19
       '@types/react-dom': 18.0.6
-      compilerOptions-module: link:../../compilerOptions/module
+      compilerOptions-module: link:../../compilerOptions/Modules/module
       compilerOptions-target: link:../../compilerOptions/Language-Environment/target
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -111,7 +129,7 @@ importers:
       typescript: ^4.6.4
       vite: ^3.1.0
     dependencies:
-      compilerOptions-module: link:../../compilerOptions/module
+      compilerOptions-module: link:../../compilerOptions/Modules/module
       compilerOptions-target: link:../../compilerOptions/Language-Environment/target
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -7029,6 +7047,10 @@ packages:
     hasBin: true
     dependencies:
       minimist: 1.2.6
+    dev: false
+
+  /moment/2.29.4:
+    resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
     dev: false
 
   /ms/2.0.0:

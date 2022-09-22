@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
     "skipLibCheck": true,
+    "outDir": "dist",
+
     "moduleResolution": "Node",
+    "module": "CommonJS",
+
+    "target": "ES6",
+
+    "isolatedModules": true,
     "esModuleInterop": true
-  },
-  "include": ["src"]
+  }
 }

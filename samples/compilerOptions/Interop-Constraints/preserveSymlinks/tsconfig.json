@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "outDir": "dist",
+
+    "typeRoots": [],
+
+    "traceResolution": true,
+
+    "moduleResolution": "Node",
+
+    // "preserveSymlinks": false
+  }
+}
