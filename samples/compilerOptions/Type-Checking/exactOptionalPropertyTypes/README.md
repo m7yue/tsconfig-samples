@@ -11,3 +11,5 @@ interface UserDefaults {
 
 当 exactOptionalPropertyTypes 为 false， colorThemeOverride 就只能设置两个值， “dark”, “light”。
 
+正常情况下是需要开启的，因为属性没有，在 js 中就是 undefined
+

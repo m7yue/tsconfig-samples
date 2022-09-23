@@ -23,7 +23,7 @@ settings.quality;
 settings.username;
 ```
 
-打开 noPropertyAccessFromIndexSignature, 使用 . 语法获取为定义的索引签名属性将会报错。
+打开 noPropertyAccessFromIndexSignature, 使用 . 语法获取为定义的索引签名属性将会报错。noProperty 的意思理解为没有被明确定义的属性。
 ```ts
 const settings = getSettings();
 settings.speed;

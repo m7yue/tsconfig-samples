@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "skipLibCheck": true,
+
+    "rootDir": "."
+  },
+
+  "include": [
+    // "**/module-a/**/*",
+    "**/module-a/*",
+  ]
+}

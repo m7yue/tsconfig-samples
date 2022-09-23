@@ -17,6 +17,7 @@ console.log(loggedInUser.age);
 
 当开启 strictNullChecks（默认为 false, 不开启）， 则上面的代码会报错 Object is possibly 'undefined'.
 
+开启 strictNullChecks， 事实上改变了 Array.find 的类型。
 ```ts
 // When strictNullChecks: true
 type Array = {
