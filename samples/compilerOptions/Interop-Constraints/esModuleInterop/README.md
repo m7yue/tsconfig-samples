@@ -67,3 +67,5 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 开启 esModuleInterop 也会自动开启  allowSyntheticDefaultImports
 
 https://juejin.cn/post/7033392392866955278
+
+总的来说，就是 tsc 在编译输出时通过一些添加 helper, 兼容 esm 和 cjs 

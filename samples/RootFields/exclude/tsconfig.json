@@ -9,5 +9,5 @@
   "include": [
     "**/module-a/**/*",
   ],
-  "exclude": ["**/module-a/utils/*"]
+  "exclude": ["**/module-a/utils/*", "**/module-a/common/*"]
 }

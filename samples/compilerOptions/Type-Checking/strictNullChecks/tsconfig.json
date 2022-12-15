@@ -2,6 +2,6 @@
   "compilerOptions": {
     "lib": ["ES2015", "DOM"],
 
-    "strictNullChecks": false
+    "strictNullChecks": true
   }
 }

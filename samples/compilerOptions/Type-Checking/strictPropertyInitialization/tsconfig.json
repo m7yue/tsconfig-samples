@@ -3,6 +3,6 @@
     "lib": ["ES2015", "DOM"],
 
     "strictNullChecks": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": true
   }
 }

@@ -4,6 +4,6 @@
     "skipLibCheck": true,
     "noEmitOnError": true,
 
-    "noUnusedLocals": false
+    "noUnusedLocals": true
   }
 }

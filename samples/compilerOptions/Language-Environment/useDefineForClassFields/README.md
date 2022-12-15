@@ -6,3 +6,5 @@ TypeScript 在 TC39 中标准之前已经引入了类字段很多年了。
 即将发布的规范的最新版本与 TypeScript 的实现具有不同的运行时行为，但语法相同。
 
 此标志切换到即将到来的 ECMA 运行时行为。
+
+tip: 输出的代码不同。仅在针对 ES5 及更高版本时可用，因为Object.defineProperty在 ES3 中不存在。

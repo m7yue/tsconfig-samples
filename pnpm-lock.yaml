@@ -82,8 +82,10 @@ importers:
   samples/compilerOptions/Modules/types:
     specifiers:
       '@types/node': ^16.11.59
+      '@types/react': ^18.0.26
     dependencies:
       '@types/node': 16.11.59
+      '@types/react': 18.0.26
 
   samples/lib-tests/cra-ts:
     specifiers:
@@ -2540,6 +2542,14 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
       csstype: 3.1.1
+
+  /@types/react/18.0.26:
+    resolution: {integrity: sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.2
+      csstype: 3.1.1
+    dev: false
 
   /@types/resolve/1.17.1:
     resolution: {integrity: sha1-Ov1q2JZ8d+Q3bFmKgt3Vj0bsRdY=, tarball: '@types/resolve/download/@types/resolve-1.17.1.tgz'}

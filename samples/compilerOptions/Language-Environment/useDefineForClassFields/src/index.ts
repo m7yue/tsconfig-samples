@@ -1,5 +1,5 @@
 class A {
-  a = 1
+  public a = 1
 
   b: string
 }

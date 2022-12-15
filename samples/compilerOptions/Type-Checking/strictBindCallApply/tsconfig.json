@@ -2,6 +2,6 @@
   "compilerOptions": {
     "lib": ["ES2015", "DOM"],
 
-    "strictBindCallApply": false
+    "strictBindCallApply": true
   }
 }

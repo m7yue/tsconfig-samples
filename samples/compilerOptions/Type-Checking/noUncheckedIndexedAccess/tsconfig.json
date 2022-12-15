@@ -3,6 +3,6 @@
     "outDir": "dist",
     "skipLibCheck": true,
 
-    "noUncheckedIndexedAccess": true 
+    "noUncheckedIndexedAccess": true
   }
 }

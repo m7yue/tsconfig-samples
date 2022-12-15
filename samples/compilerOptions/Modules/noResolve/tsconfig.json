@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "noResolve": false,
+    "noResolve": true,
 
     "outDir": "dist",
 

@@ -8,6 +8,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^16.11.59"
+    "@types/node": "^16.11.59",
+    "@types/react": "^18.0.26"
   }
 }

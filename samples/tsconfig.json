@@ -1,0 +1,115 @@
+{
+  "compilerOptions": {
+    /**
+    * Type-Checking
+    */
+    "allowUnreachableCode": false, // 引发有关不可达代码的编译器错误。提示错误。
+    
+    "noFallthroughCasesInSwitch": true, // 要求每个 switch case 语句， 确保都有 break 或者 return 语句。
+  
+    "noImplicitAny": true, // 只要推断出 any, 就会提示错误。
+
+    "noImplicitReturns": true, // 检查函数中的所有代码路径，以确保它们返回值。可以避免一些函数只做了副作用行为。
+
+    "noImplicitThis": true, // 对隐含 “any” 类型的 “this” 表达式引发错误。即需要明确 this 指向。
+    
+    "noUnusedLocals": true, // 有未使用的变量时， 抛出错误。
+
+    "noUnusedParameters": true, // 有未使用的函数参数时， 抛出错误。
+
+    "strictBindCallApply": true, // 检查函数的内置方法 call, bind, aplly 是否使用正确参数进行调用
+
+    /**
+    * 当 strictNullChecks 为 false 时，该语言将有效地忽略 null 和 undefined。这可能会导致意想不到的运行时错误。
+    * 如果 strictNullChecks 为 true，则 null 和 undefined 的类型各不相同，如果试图在需要具体值的地方使用它们，则会得到类型错误。
+    */
+    "strictNullChecks": true,
+
+    "strictPropertyInitialization": true, // 声明了类属性但未在构造函数中设置值时，TypeScript 将引发错误。
+
+  
+    /**
+    * Modules
+    */
+
+    /**
+    * 允许您设置基目录以解析非绝对模块名称。
+    * 相对路径的模块不受 baseUrl 值的影响.
+    * 但这只是解决了类型层面模块解析问题，构建产物路径的正确性需要通过构建工具保证。
+    */
+    "baseUrl": "./src/",
+
+    "module": "ES6", // none, commonjs, amd, umd, system, es6/es2015, es2020, es2022, esnext, node16, nodenext
+
+    "moduleResolution": "Node", // 解析策略试图在运行时模拟 Node.js 模块解析机制。
+
+    /**
+     * 模块解析路径映射，以支持类似一些 loader 的路径别名。
+     * 请注意，paths 是相对于 baseUrl 解析的。即以 baseUrl 为基准路径。
+    */
+    "paths": {
+      "@modules/*": ["./modules/*"],
+      "@utils/*": ["./utils/*"],
+    },
+
+    "resolveJsonModule": true, // 允许 import .json 扩展名的文件
+
+    "rootDir": "./src", // 当 TypeScript 编译输出文件时，它在输出目录中保持与输入目录（rootDir)中相同的目录结构。即 rootDir 会影响输出目录结构。
+  
+    "traceResolution": true, // 使用 traceResolation 启用编译器模块解析跟踪可以深入了解模块解析过程中发生了什么。有利于性能和排障分析。
+
+    /**
+    * 
+    * 结合 traceResolution, 追踪，合理设置 typeRoots 可以提升性能。
+    */
+    "typeRoots": ["./types"],
+
+    /**
+    * 只有列出的包将包含在全局范围中
+    * 这个特性与 typeRoots 的不同之处在于，它只指定您想要包含的确切类型，而 typeRoots 支持说您想要特定的文件夹。
+    */
+    "types": ["node", "jest", "express"],
+
+
+    /**
+    * Emit
+    */
+    "declaration": true,
+
+    "declarationDir": "dist/types", // 指定声明文件根目录。相对 tsconfig.json 所在目录。 
+
+    "declarationMap": true, // 通过类型可以定位到源代码
+
+    "importsNotUsedAsValues": "error", // 导入仅用作类型时将会报错, 需要使用 import type 显示导入类型。
+
+    "importHelpers": true, // 从 tslib 中导入辅助函数，减少体积。需要安装依赖：tslib。
+
+    "noEmitOnError": true, // 如果发生错误，不要发出编译器输出文件。
+
+    "sourceMap": true, // 源映射文件以. js.map (或 .jsx.map)文件的形式发送到相应的 .js 文件旁边
+
+    /**
+    * JavaScriptSupport
+    */
+
+    "allowJs": true, // 可以为 js 生成声明文件
+    "checkJs": true, // 与allowJs协同工作，将在 JavaScript 文件中报告错误。
+
+    /**
+    * Interop-Constraints
+    */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true, // 默认开启 allowSyntheticDefaultImports， 能够输出兼容 esm 和 cjs 的 helper。
+    "forceConsistentCasingInFileNames": true, // 明确大小写。
+    "isolatedModules": true, // 通过 import type 语法明确指定导出类型。
+    "preserveSymlinks": false, // traceResolution 追踪到软连接真实路径。
+
+    
+    /**
+    * Language-Environment
+    */
+    "jsx": "react-jsx",
+    "lib": [],
+    "target": "ES6"
+  }
+}

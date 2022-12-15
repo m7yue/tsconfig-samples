@@ -4,6 +4,6 @@
     "skipLibCheck": true,
     "noEmitOnError": true,
 
-    "noUnusedParameters": false
+    "noUnusedParameters": true
   }
 }

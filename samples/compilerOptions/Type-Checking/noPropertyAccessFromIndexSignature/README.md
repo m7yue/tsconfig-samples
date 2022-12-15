@@ -33,3 +33,5 @@ settings.quality;
 settings.username;
 Property 'username' comes from an index signature, so it must be accessed with ['username'].
 ```
+
+此标志的目标是在调用语法中表明您是否确定此属性存在。
